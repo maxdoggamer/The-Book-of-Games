@@ -1,0 +1,334 @@
+{
+  "mod_elements": [
+    {
+      "name": "BookOfOdds",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_of_games",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/book_of_games/models/item/book_of_games.json",
+          "src/main/java/net/mcreator/bookofgames/item/BookOfOddsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TheBookOfOdds",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_book_of_games",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Bookopen",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bookopen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bookofgames/world/inventory/BookopenMenu.java",
+          "src/main/java/net/mcreator/bookofgames/client/gui/BookopenScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "BookOfGamesOpenRightclicked",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_of_games_open_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bookofgames/procedures/BookOfGamesOpenRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BookOfGamesOpen",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_of_games_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bookofgames/item/inventory/BookOfGamesOpenInventoryCapability.java",
+          "src/main/java/net/mcreator/bookofgames/item/BookOfGamesOpenItem.java",
+          "src/main/resources/assets/book_of_games/models/item/book_of_games_open.json"
+        ]
+      }
+    },
+    {
+      "name": "BookOfOddsRightclicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_of_odds_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bookofgames/procedures/BookOfOddsRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chalenge1A",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalenge_1_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bookofgames/procedures/Chalenge1AProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chalenges/Chalenge1"
+    },
+    {
+      "name": "Chalenge1B",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalenge_1_b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bookofgames/procedures/Chalenge1BProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chalenges/Chalenge1"
+    },
+    {
+      "name": "Creepersdying",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creepersdying",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bookofgames/procedures/CreepersdyingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Chalenges/Chalenge1"
+    },
+    {
+      "name": "Chalenge1C",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalenge_1_c",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/bookofgames/procedures/Chalenge1CProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chalenges/Chalenge1"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "BookOpened",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Chalenge",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "progress",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "ChalengeType",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.book_of_games.bookopen.label_over_the_pages_of_the": "over the pages of the",
+      "gui.book_of_games.bookopen.label_now_that_you_started": "Now that you started",
+      "gui.book_of_games.bookopen.label_this_so_im_probably_dead": "this so I\u0027m probably dead",
+      "item.book_of_odds.book_of_odds": "Book Of Odds",
+      "gui.book_of_games.bookopen.label_now_you_must_decide": "now you must decide ",
+      "gui.book_of_games.bookopen.label_they_will_never_stop": "THEY WILL NEVER STOP",
+      "gui.book_of_games.bookopen.label_you_are_the_story": "YOU, are the story",
+      "gui.book_of_games.bookopen.label_to_help_you": "to help you",
+      "gui.book_of_games.bookopen.label_book_sorry_but_i_think": "book, sorry but I think",
+      "gui.book_of_games.bookopen.label_chalenges_its_dangers": "chalenges, its dangers",
+      "gui.book_of_games.bookopen.label_adventure": "adventure",
+      "item.book_of_games.book_of_games": "Book Of Games",
+      "gui.book_of_games.bookopen.button_chalenges": "Chalenges",
+      "itemGroup.tabthe_book_of_games": "The Book Of Games",
+      "gui.book_of_games.bookopen.label_coming": "COMING",
+      "gui.book_of_games.bookopen.label_the_story": "the story.",
+      "gui.book_of_games.bookopen.label_just_dont_throw_this": "JUST DON\u0027T THROW THIS ",
+      "gui.book_of_games.bookopen.label_only_chance_otherwise": "ONLY CHANCE, OTHERWISE",
+      "gui.book_of_games.bookopen.label_book_away_it_is_your": "BOOK AWAY, IT IS YOUR",
+      "gui.book_of_games.bookopen.label_must_end_it_and_all_its": "must end it and all its",
+      "gui.book_of_games.bookopen.label_may_the_gods_be_with_you": "may the gods be with you",
+      "gui.book_of_games.bookopen.label_on_this_so": "on this so",
+      "gui.book_of_games.bookopen.label_dangerous": "dangerous",
+      "gui.book_of_games.bookopen.label_reading_this_book_you": "reading this book you",
+      "gui.book_of_games.bookopen.label_what_to_see_now": "what to see now",
+      "gui.book_of_games.bookopen.label_on_post_its_and_glued": "on post its and glued",
+      "gui.book_of_games.bookopen.button_exclusive_rewards": "exclusive rewards",
+      "gui.book_of_games.bookopen.label_that_if_youre_reading": "that if you\u0027re reading",
+      "gui.book_of_games.bookopen.label_i_have_written_some_tips": "I have written some tips",
+      "gui.book_of_games.bookopen.label_caution_and_good_luck": "CAUTION AND GOOD LUCK",
+      "gui.book_of_games.bookopen.button_trapsspecial": "Traps/special",
+      "gui.book_of_games.bookopen.label_ok_i_need_to_tell_you": "OK, I need to tell you",
+      "gui.book_of_games.bookopen.label_you_arent_going_to_read": "you aren\u0027t going to read",
+      "gui.book_of_games.bookopen.button_traders_events_and_blessings": "Traders, events and blessings",
+      "gui.book_of_games.bookopen.label_post_its": "post its",
+      "gui.book_of_games.bookopen.label_i_glued_some": "I glued some",
+      "gui.book_of_games.bookopen.button_monsters": "Monsters",
+      "item.book_of_games.book_of_games_open": "Book Of Games Open"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Chalenges",
+        "children": [
+          {
+            "name": "Chalenge1",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "book_of_games",
+    "modName": "Book of Games",
+    "version": "1.0.0",
+    "author": "Patricia, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.bookofgames",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

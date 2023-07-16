@@ -1,0 +1,620 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 347,
+    "height": 240,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bookopenpage.png",
+          "use1Xscale": false,
+          "x": 2,
+          "y": -92
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "postit.png",
+          "use1Xscale": false,
+          "x": 30,
+          "y": 16
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ok_i_need_to_tell_you",
+          "text": {
+            "fixedValue": "OK, I need to tell you"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 35,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_that_if_youre_reading",
+          "text": {
+            "fixedValue": "that if you're reading"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 35,
+          "y": 29
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_this_so_im_probably_dead",
+          "text": {
+            "fixedValue": "this so I'm probably dead"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 29,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_now_that_you_started",
+          "text": {
+            "fixedValue": "Now that you started"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 37,
+          "y": 46
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_reading_this_book_you",
+          "text": {
+            "fixedValue": "reading this book you"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 33,
+          "y": 55
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_must_end_it_and_all_its",
+          "text": {
+            "fixedValue": "must end it and all its"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 30,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_chalenges_its_dangers",
+          "text": {
+            "fixedValue": "chalenges, its dangers"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 32,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blooddrops.png",
+          "use1Xscale": false,
+          "x": 174,
+          "y": 103
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "postit.png",
+          "use1Xscale": false,
+          "x": 226,
+          "y": 20
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "postit.png",
+          "use1Xscale": true,
+          "x": 120,
+          "y": 158
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_i_glued_some",
+          "text": {
+            "fixedValue": "I glued some"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 122,
+          "y": 160
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_post_its",
+          "text": {
+            "fixedValue": "post its"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 121,
+          "y": 169
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_to_help_you",
+          "text": {
+            "fixedValue": "to help you"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 122,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_on_this_so",
+          "text": {
+            "fixedValue": "on this so"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 121,
+          "y": 189
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_dangerous",
+          "text": {
+            "fixedValue": "dangerous"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 120,
+          "y": 196
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_adventure",
+          "text": {
+            "fixedValue": "adventure"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 120,
+          "y": 204
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blooddrops.png",
+          "use1Xscale": true,
+          "x": 164,
+          "y": 193
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blooddrops.png",
+          "use1Xscale": true,
+          "x": 162,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_now_you_must_decide",
+          "text": {
+            "fixedValue": "now you must decide "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 231,
+          "y": 31
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_what_to_see_now",
+          "text": {
+            "fixedValue": "what to see now"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 230,
+          "y": 38
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_just_dont_throw_this",
+          "text": {
+            "fixedValue": "JUST DON'T THROW THIS "
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "x": 229,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_book_away_it_is_your",
+          "text": {
+            "fixedValue": "BOOK AWAY, IT IS YOUR"
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "x": 230,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_only_chance_otherwise",
+          "text": {
+            "fixedValue": "ONLY CHANCE, OTHERWISE"
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "x": 230,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_they_will_never_stop",
+          "text": {
+            "fixedValue": "THEY WILL NEVER STOP"
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "x": 230,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_coming",
+          "text": {
+            "fixedValue": "COMING"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 262,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_caution_and_good_luck",
+          "text": {
+            "fixedValue": "CAUTION AND GOOD LUCK"
+          },
+          "color": {
+            "value": -10092544,
+            "falpha": 0.0
+          },
+          "x": 230,
+          "y": 101
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_may_the_gods_be_with_you",
+          "text": {
+            "fixedValue": "may the gods be with you"
+          },
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "x": 228,
+          "y": 111
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "smallpostitblue.png",
+          "use1Xscale": false,
+          "x": 356,
+          "y": 29
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "smallpistitred.png",
+          "use1Xscale": false,
+          "x": 355,
+          "y": 199
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "smallpostitgreen.png",
+          "use1Xscale": false,
+          "x": 355,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "smallpostitorange.png",
+          "use1Xscale": false,
+          "x": 356,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "smallpostityellow.png",
+          "use1Xscale": false,
+          "x": 356,
+          "y": 113
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_i_have_written_some_tips",
+          "text": {
+            "fixedValue": "I have written some tips"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 32,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_on_post_its_and_glued",
+          "text": {
+            "fixedValue": "on post its and glued"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 31,
+          "y": 95
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_over_the_pages_of_the",
+          "text": {
+            "fixedValue": "over the pages of the"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 30,
+          "y": 105
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_book_sorry_but_i_think",
+          "text": {
+            "fixedValue": "book, sorry but I think"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 31,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_arent_going_to_read",
+          "text": {
+            "fixedValue": "you aren't going to read"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 32,
+          "y": 123
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_story",
+          "text": {
+            "fixedValue": "the story."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 30,
+          "y": 131
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_are_the_story",
+          "text": {
+            "fixedValue": "YOU, are the story"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 41,
+          "y": 146
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_monsters",
+          "text": "Monsters",
+          "width": 67,
+          "height": 20,
+          "x": 355,
+          "y": 81
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_chalenges",
+          "text": "Chalenges",
+          "width": 72,
+          "height": 20,
+          "x": 352,
+          "y": 39
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_trapsspecial",
+          "text": "Traps/special",
+          "width": 93,
+          "height": 20,
+          "x": 329,
+          "y": 124
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_traders_events_and_blessings",
+          "text": "Traders, events and blessings",
+          "width": 176,
+          "height": 20,
+          "x": 246,
+          "y": 172
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_exclusive_rewards",
+          "text": "exclusive rewards",
+          "width": 114,
+          "height": 20,
+          "x": 305,
+          "y": 208
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

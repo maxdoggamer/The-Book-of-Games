@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "The Book Of Games",
+    "icon": {
+      "value": "CUSTOM:BookOfOdds"
+    },
+    "showSearch": false
+  }
+}
